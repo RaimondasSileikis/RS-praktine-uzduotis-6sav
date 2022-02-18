@@ -13,52 +13,77 @@ body * {
     background-color: #fff;
 }
 .container {
-    width: 100vw;
-    height: 100vh;
-    background-color: #8ba2cc;
+    width: 1000px;
+    height: 1000px;
+    background-color: #bbcae4;
     position: relative;
-    
+    margin-left: calc(50% - 500px);
+    padding: 100px;
    
 }
 .forma {
     position: absolute;
-    display:inline-block;
+    display: block;
     width: 800px;
     height: 800px;
-    margin-left: calc(50% - 400px);
-    margin-top: calc(50% - 500px);
     background-color: #fff;
-    padding:50px;
+    padding: 50px;
 }
-.forma .form-row .form-imput {
-    font-size: 30px;
-}
+
 .forma h1 {
-   font-size: 36px;
+   font-size: 46px;
    font-weight: 300; 
-   }
+   color: blue;
+   margin-bottom: 20px;
+}
 .forma h2 {
     font-size: 20px;
     color:green;
     font-weight: 300;
-}
-form > .form-row .form1 input {
-    display: inline-block;
     margin-top: 20px;
-    font-size: 20px;
-    line-height: 1.5em;
-    width: 48%;
-    background-color: #8ba2cc;
 }
-.form1 {
-    display:flex;
-    justify-content: space-between;
-}
-form > .form-row .form2 input {
-    display: inline-block;
+.forma > .form > .form-row input {
+    color:blue;
+    font-size: 24px;
+    line-height: 2.2em;
+    padding: 10px;
+    background-color: #7581c9;
+    border-radius: 10px;
+    border: transparent;
     margin-top: 20px;
-    font-size: 20px;
-    line-height: 1.5em;
-    background-color: #8ba2cc;
-    width: 100%;
+}
+.forma .form .form-row .formL {
+   float: left;
+   opacity: 0.4;
+}
+.forma .form .form-row .formR {
+    float: right;
+    opacity: 0.4;
+ }
+.form > .form-row .form1 input {
+    width: 340px; 
+    opacity: 0.5;
+}
+.form > .form-row .form2 input {
+  width: 700px;  
+  opacity: 0.5; 
+}
+.form > .form-row .form3 input {
+    width: 700px;
+    height: 6em; 
+    background-color: #7581c9;
+    opacity: 0.8;
+    
+  }
+.forma > .form > .form-row .btn {
+    width: 200px;
+    margin-left:calc(50% - 100px);
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 2em;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 30px;
+    border: transparent;
+    color: #fff;
 }
